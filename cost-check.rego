@@ -1,21 +1,11 @@
-package terraform
+ package terraform 
+
 
 import input.tfplan as tfplan
 import input.tfrun as tfrun
 
 deny[reason] {
     cost_delta = tfrun.cost_estimate.delta_monthly_cost
-    cost_delta > 5
-    reason := sprintf("Plan is too expensive: $%.2f, while up to $5 is allowed", [cost_delta])
-}
-
-deny["Forbidden workspace name"] {
-    not endswith(tfrun.workspace.name, "-dev")
-}
-
-deny[reason] {
-    r = tfplan.resource_changes[_]
-    r.change.actions[_] == "delete"
-    tfrun.credentials.aws == "asde2342fef"
-    reason := sprintf("Resource deletion is prohibited on %q cloud account", [tfrun.credentials.aws])
+    cost_delta > 20
+    reason := sprintf("Plan is too expensive: $%.2f, while up to $30 is allowed", [cost_delta])
 }
