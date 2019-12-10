@@ -5,7 +5,7 @@ policy "cost-check" {
 }
 
 policy "workspace-name" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
