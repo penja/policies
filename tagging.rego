@@ -9,3 +9,7 @@ deny["Instances must be tagged"] {
     r.change.actions[_] == "create"
     not contains(tfrun.aws_instance.instance_type, "t3.medium")
 }
+
+allow {
+  tfrun.aws_instance.tags.Stage == "Prod"
+}
