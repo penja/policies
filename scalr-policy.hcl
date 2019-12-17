@@ -19,3 +19,7 @@ policy "network-access" {
     enabled = false
     enforcement_level = "soft-mandatory"
 }
+
+policy "instance_types" {
+    enabled = true
+}
