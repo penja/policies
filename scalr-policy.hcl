@@ -4,10 +4,6 @@ policy "cost-check" {
     enabled = true
 }
 
-policy "tagging" {
-    enabled = true
-}
-
 policy "workspace-name" {
     enabled = false
     enforcement_level = "advisory"
