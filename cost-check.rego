@@ -6,6 +6,6 @@ import input.tfrun as tfrun
 
 deny[reason] {
     cost_delta = tfrun.cost_estimate.delta_monthly_cost
-    cost_delta > 200
+    cost_delta > 20
     reason := sprintf("Plan is too expensive: $%.2f, while up to $200 is allowed", [cost_delta])
 }
