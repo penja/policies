@@ -22,4 +22,5 @@ policy "network-access" {
 
 policy "instance_types" {
     enabled = true
+    enforcement_level = "advisory"
 }
