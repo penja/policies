@@ -1,8 +1,8 @@
 version = "v1"
 
 policy "cost-check" {
-    enabled = false
-    enforcement_level = "hard-mandatory"
+    enabled = true
+    enforcement_level = "advisory"
 }
 
 policy "workspace-name" {
