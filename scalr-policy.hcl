@@ -2,7 +2,7 @@ version = "v1"
 
 policy "cost-check" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "hard-failed"
 }
 
 policy "workspace-name" {
@@ -23,5 +23,5 @@ policy "network-access" {
 
 policy "instance_types" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "hard-failed"
 }
