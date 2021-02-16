@@ -6,7 +6,7 @@ policy "cost-check" {
 }
 
 policy "workspace-name" {
-    enabled = false
+    enabled = true
     enforcement_level = "soft-mandatory"
 }
 
