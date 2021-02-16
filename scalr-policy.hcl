@@ -7,7 +7,7 @@ policy "cost-check" {
 
 policy "workspace-name" {
     enabled = false
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "credential-limit" {
