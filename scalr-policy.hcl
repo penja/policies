@@ -7,18 +7,18 @@ policy "cost-check" {
 
 policy "workspace-name" {
     enabled = true
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "credential-limit" {
     enabled = true
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "advisory"
 }
 
 
 policy "network-access" {
     enabled = false
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "instance_types" {
