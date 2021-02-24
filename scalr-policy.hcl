@@ -1,17 +1,17 @@
 version = "v1"
 
 policy "cost-check" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
 policy "workspace-name" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
 policy "credential-limit" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
@@ -22,6 +22,6 @@ policy "network-access" {
 }
 
 policy "instance_types" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
