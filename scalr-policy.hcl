@@ -1,7 +1,7 @@
 version = "v1"
 
 policy "cost-check" {
-    enabled = false
+    enabled = true
     enforcement_level = "advisory"
 }
 
