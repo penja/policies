@@ -6,22 +6,22 @@ policy "cost-check" {
 }
 
 policy "workspace-name" {
-    enabled = false
+    enabled = true
     enforcement_level = "advisory"
 }
 
 policy "credential-limit" {
-    enabled = false
+    enabled = true
     enforcement_level = "advisory"
 }
 
 
 policy "network-access" {
-    enabled = false
+    enabled = true
     enforcement_level = "advisory"
 }
 
 policy "instance_types" {
-    enabled = false
+    enabled = true
     enforcement_level = "advisory"
 }
