@@ -6,7 +6,7 @@ policy "workspace-name" {
 }
 
 policy "credential-limit" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
