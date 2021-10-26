@@ -1,10 +1,5 @@
 version = "v1"
 
-policy "cost-check" {
-    enabled = true
-    enforcement_level = "advisory"
-}
-
 policy "workspace-name" {
     enabled = true
     enforcement_level = "advisory"
