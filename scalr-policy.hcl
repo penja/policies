@@ -1,7 +1,7 @@
 version = "v1"
 
 policy "credential-limit" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
