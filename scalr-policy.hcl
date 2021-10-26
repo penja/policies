@@ -7,7 +7,7 @@ policy "credential-limit" {
 
 
 policy "network-access" {
-    enabled = true
+    enabled = false
     enforcement_level = "advisory"
 }
 
