@@ -5,6 +5,11 @@ policy "workspace-name" {
     enforcement_level = "advisory"
 }
 
+policy "blacklist_provider" {
+    enabled = true
+    enforcement_level = "advisory"
+}
+
 policy "credential-limit" {
     enabled = true
     enforcement_level = "advisory"
