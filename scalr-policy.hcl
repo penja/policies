@@ -17,8 +17,10 @@ policy "credential-limit" {
     enforcement_level = "advisory"
 }
 
-
-
+policy "network-access" {
+    enabled = true
+    enforcement_level = "advisory"
+}
 
 policy "network-access" {
     enabled = true
