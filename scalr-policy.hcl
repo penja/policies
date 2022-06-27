@@ -20,11 +20,6 @@ policy "network-access" {
     enforcement_level = "advisory"
 }
 
-policy "network-access" {
-    enabled = true
-    enforcement_level = "advisory"
-}
-
 policy "instance_types" {
     enabled = true
     enforcement_level = "advisory"
