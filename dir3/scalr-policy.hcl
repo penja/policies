@@ -1,7 +1,6 @@
 version = "v1"
 
-
-policy "always-failed" {
+policy "credential-limit" {
     enabled = true
     enforcement_level = "advisory"
 }

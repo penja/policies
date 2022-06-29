@@ -1,7 +1,6 @@
 version = "v1"
 
-
-policy "always-failed" {
+policy "whitelist_provider" {
     enabled = true
     enforcement_level = "advisory"
 }

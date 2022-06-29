@@ -1,7 +1,7 @@
 version = "v1"
 
 
-policy "always-failed" {
+policy "instance_types" {
     enabled = true
     enforcement_level = "advisory"
 }

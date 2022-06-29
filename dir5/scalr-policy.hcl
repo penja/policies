@@ -1,7 +1,8 @@
 version = "v1"
 
 
-policy "always-failed" {
+policy "network-access" {
     enabled = true
     enforcement_level = "advisory"
 }
+
