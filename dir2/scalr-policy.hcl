@@ -1,6 +1,6 @@
 version = "v1"
 
-policy "cost-check" {
-    enabled = true
+policy "cost-chasd eck" {
+    enabled = true as
     enforcement_level = "advisory"
 }
