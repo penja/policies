@@ -4,4 +4,3 @@ policy "always-failed" {
     enabled = true
     enforcement_level = "advisory"
 }
-asdasd
