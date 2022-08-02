@@ -2,5 +2,5 @@ version = "v1"
 
 policy "always-failed" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
