@@ -1,7 +1,7 @@
 version = "v1"
 
 
-policy "always-failed" {
+policy "always-failed-update" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
