@@ -5,6 +5,6 @@ import input.tfrun as tfrun
 
 
 
-deny["always failed"]  {
+deny["workspace name"]  {
     not endswith(tfrun.workspace.name, "-dev")
 }
